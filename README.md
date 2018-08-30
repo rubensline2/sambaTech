@@ -1,16 +1,19 @@
+#QA Sambatech
 Este projeto tem como objetivo realizar os testes automaticamente da tela de login do site da SambaTech Videos.
 
-A automaÁ„o foi feita com cucumber selenium webdriver. Com o cucumber È possÌvel que o projeto seja feito basicamente com uma linguagem em que o usu·rio e a equipe de testes e desenvolvimento consigam programar, facilitando assim correÁıes e implementaÁıes futuras, com o reaproveitamento de passos desenvolvidos anteriormente.
+A automa√ß√£o foi feita com cucumber selenium webdriver. Com o cucumber √© poss√≠vel que o projeto seja feito basicamente com uma linguagem em que o usu√°rio e a equipe de testes e desenvolvimento consigam programar, facilitando assim corre√ß√µes e implementa√ß√µes futuras, com o reaproveitamento de passos desenvolvidos anteriormente.
 
-Primeiramente foi criado um projeto java e importado os jars para a realizaÁ„o da automaÁ„o da tela em quest„o.
+Primeiramente foi criado um projeto java e importado os jars para a realiza√ß√£o da automa√ß√£o da tela em quest√£o.
 
-Em seguida criei a feature de Login, em que nela est„o os testes que realizei a automaÁ„o. Login v·lido e login inv·lido.
+Em seguida criei a feature de Login, em que nela est√£o os testes que realizei a automa√ß√£o. Login v√°lido e login inv√°lido.
 
 Posteriormente eu criei os pacotes TestRunners, Tests e Pages.
--TestRunners: Criei uma classe e nesta classe possue as configuraÁıes para que o cÛdigo seja rodado, no mÈtodo de cucumber È necess·rio para identificar quais os diretÛrios est„o as features e os steps.
+-TestRunners: Criei uma classe e nesta classe possue as configura√ß√µes para que o c√≥digo seja rodado, no m√©todo de cucumber √© necess√°rio para identificar quais os diret√≥rios est√£o as features e os steps.
 
--Tests: Classe que criei os steps que s„o cada passo dos cen·rios criados na feature.
+##-Tests: 
+Classe que criei os steps que s√£o cada passo dos cen√°rios criados na feature.
 
--Pages: S„o os pagefactory das telas, mapeamento dos campos e seus elementos, para facilitar a automaÁ„o, e utilizar o page objects.
+##-Pages: 
+S√£o os pagefactory das telas, mapeamento dos campos e seus elementos, para facilitar a automa√ß√£o, e utilizar o page objects.
 
-Um cÛdigo simples, mas como eu sÛ fazia com Visual Studio a gente leva um tempo para entender como o java funciona, mas basicamente È quase a mesma coisa.
+Um c√≥digo simples, mas como eu s√≥ fazia com Visual Studio a gente leva um tempo para entender como o java funciona, mas basicamente √© quase a mesma coisa.
